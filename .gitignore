@@ -1,0 +1,17 @@
+.idea
+KdaPyFlinkStarterDataPipeline*.zip
+kda-pyflink-starter-sql-function.zip
+.DS_Store
+dev-*.tfvars
+*.terraform*
+*tfstate*
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+dependencies
+kda-pyflink-starter-data-pipeline/models/__pycache__
+kda-pyflink-starter-data-pipeline/process/__pycache__
+kda-pyflink-starter-data-pipeline/serialization/__pycache__
+kda-pyflink-starter-data-pipeline/sink/__pycache__
+kda-pyflink-starter-data-pipeline/utils/__pycache__
+.DS_Store

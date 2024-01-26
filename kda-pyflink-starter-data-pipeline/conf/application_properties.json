@@ -1,0 +1,25 @@
+[
+  {
+    "PropertyGroupId": "kinesis.analytics.flink.run.options",
+    "PropertyMap": {
+      "python": "starter-data-pipeline.py",
+      "jarfile": "lib/kda-pyflink-starter-uber.jar",
+      "pyFiles": "dependencies/"
+    }
+  },
+  {
+    "PropertyGroupId": "starter.data.pipeline.config",
+    "PropertyMap": {
+      "input.stream.name": "kda-pyflink-ingestor",
+      "flink.stream.initpos": "LATEST",
+      "aws.region": "us-east-1",
+      "db.host":"localhost",
+      "db.port":"5432",
+      "db.name": "gsreeji",
+      "db.username":"gsreeji",
+      "db.password":""
+    }
+  }
+]
+
+
